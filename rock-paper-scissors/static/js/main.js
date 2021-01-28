@@ -31,8 +31,8 @@ const game=()=>{
             //Here is where we call compare hands
             compareHands(this.textContent, computerChoice);
             //Update Images
-            playerHand.src = `../images/${this.textContent}.png`;
-            computerHand.src = `../images/${computerChoice}.png`;
+            playerHand.src = `static/images/${this.textContent}.png`;
+            computerHand.src = `static/images/${computerChoice}.png`;
           }, 2000);
           //shaking the hands
           playerHand.style.animation = "shakePlayer 2s ease";
